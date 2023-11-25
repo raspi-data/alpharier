@@ -37,15 +37,16 @@ main img {
 
 .single-col-image {
     display: block;
-    margin: 20px auto; /* Adjust margin as needed */
-    max-width: 500px;
+    margin: 20px auto;
+    max-width: 300px;
+    width: 100%; /* Ensure the image takes up 100% of the available width */
     height: auto;
 }
 
 /* Media query for mobile responsiveness */
 @media (max-width: 300px) {
     .single-col-image {
-        max-width: 80%; /* Adjust as needed for your design */
+        max-width: 80%;
     }
 }
 
