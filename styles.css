@@ -6,11 +6,6 @@ body {
     color: #131313;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 header {
     text-align: center;
     padding: 20px;
@@ -20,7 +15,6 @@ header {
     max-width: 400px;
     height: auto;
 }
-
 /* Media query for mobile responsiveness */
 @media (max-width: 300px) {
     .logo-container img {
@@ -37,7 +31,8 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 10px;
-    margin-bottom: 20px;
+    max-width: 800px; /* Set a max width to limit the number of columns */
+    margin: 0 auto; /* Center the grid within the main container */
 }
 
 main img {
@@ -50,7 +45,7 @@ main img {
     display: block;
     margin: 20px auto;
     max-width: 300px;
-    width: 100%;
+    width: 100%; /* Ensure the image takes up 100% of the available width */
     height: auto;
 }
 
@@ -63,6 +58,8 @@ main img {
 
 .intro-text {
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 footer {
@@ -74,9 +71,9 @@ footer {
     font-size: 11px;
     font-style: normal;
     opacity: 0.8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* Make it a flex container */
+    align-items: center; /* Center items vertically within the container */
+    justify-content: center; /* Center items horizontally within the container */
 }
 
 .copyright-container a {
