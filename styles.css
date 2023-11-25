@@ -43,7 +43,7 @@ main img {
 }
 
 /* Media query for mobile responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 300px) {
     .single-col-image {
         max-width: 80%; /* Adjust as needed for your design */
     }
