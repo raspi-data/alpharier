@@ -16,9 +16,10 @@ header {
     height: auto;
 }
 /* Media query for mobile responsiveness */
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     .logo-container img {
         max-width: 250px;
+        height: auto;
     }
 }
 
